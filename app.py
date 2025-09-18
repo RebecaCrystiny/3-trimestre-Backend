@@ -1,4 +1,4 @@
-#rodar nocmd
+#rodar no cmd
 #pip install Flask
 
 #importar biblioteca Flask
