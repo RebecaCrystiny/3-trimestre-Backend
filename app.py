@@ -11,7 +11,7 @@ app = Flask(__name__)
 #a função que é executada quando a rota '/' é acessada 
 #ela retorna a string "hello world"
 def hello_world():
-     return 'Hello, world!'
+     return render_template ('index.html')
 
 #executa o servidor de desenvolvimento
 if__name__ == '__main__':
