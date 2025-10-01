@@ -3,5 +3,5 @@ services:
    name: meu-flask-app
    env: python
    buildCommand: piṕ install -r requirements.txt
-   startCommand: guiicorn app:app
+   startCommand: gunicorn app:app
    plan: free
